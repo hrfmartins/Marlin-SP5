@@ -787,7 +787,7 @@
 //#define USE_KMIN_PLUG
 //#define USE_XMAX_PLUG
 #define USE_YMAX_PLUG
-#define USE_ZMAX_PLUG     //Z2 Endtop (Right)
+//#define USE_ZMAX_PLUG     //Z2 Endtop (Right)
 //#define USE_IMAX_PLUG
 //#define USE_JMAX_PLUG
 //#define USE_KMAX_PLUG
@@ -869,7 +869,7 @@
 #define Z_DRIVER_TYPE  A4988
 //#define X2_DRIVER_TYPE A4988
 //#define Y2_DRIVER_TYPE A4988
-#define Z2_DRIVER_TYPE A4988
+//#define Z2_DRIVER_TYPE A4988    //Only Enabled for DUAL-Z
 //#define Z3_DRIVER_TYPE A4988
 //#define Z4_DRIVER_TYPE A4988
 //#define I_DRIVER_TYPE  A4988
@@ -1341,7 +1341,7 @@
 #define INVERT_X_DIR true
 #define INVERT_Y_DIR true
 #define INVERT_Z_DIR false  //A4988 direction is inverted, compared to TMC
-#define INVERT_Z2_DIR false //added, since Z2 is not listed
+//#define INVERT_Z2_DIR false //added, since Z2 is not listed
 //#define INVERT_I_DIR false
 //#define INVERT_J_DIR false
 //#define INVERT_K_DIR false
